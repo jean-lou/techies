@@ -33,4 +33,5 @@
 # Composer PHAR
 /composer.phar
 
-#caca
+# PHP storm
+/.idea/*
