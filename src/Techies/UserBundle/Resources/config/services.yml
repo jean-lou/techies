@@ -1,0 +1,7 @@
+parameters:
+#    techies_user.example.class: Techies\UserBundle\Example
+
+services:
+#    techies_user.example:
+#        class: %techies_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
