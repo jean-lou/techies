@@ -8,7 +8,11 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('TechiesUserBundle:Default:index.html.twig', array(
-        ));
+        return $this->render('TechiesUserBundle:Default:index.html.twig', array());
+    }
+
+    public function loggedAction()
+    {
+        return $this->render('TechiesUserBundle:Default:logged.html.twig', array());
     }
 }

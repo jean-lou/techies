@@ -1,3 +1,10 @@
 techies_user_homepage:
     path:     /
     defaults: { _controller: TechiesUserBundle:Default:index }
+
+techies_user_logged:
+    path:     /logged
+    defaults: { _controller: TechiesUserBundle:Default:logged }
+
+
+
