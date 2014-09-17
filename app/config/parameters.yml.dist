@@ -19,5 +19,5 @@ parameters:
     use_assetic_controller: true
     facebook_app_id:  444223512382329
     facebook_app_secret:  f412871008b891e4ab063ed6c0bfd950
-    google_app_id:  1028129198528-i473i4mil7gv5fart9jea4kcv63m22ns.apps.googleusercontent.com
-    google_app_secret:  8617803331f716303b55ec54ba064881f6d1ea40
+    google_app_id:  1028129198528-aga41pg17ro6h0e3asgi4i5a7ao3kd7k.apps.googleusercontent.com
+    google_app_secret:  LarMoPQuVyd2-L3n9My2JEAl
