@@ -42,6 +42,12 @@ class FOSUBUserProvider extends BaseClass
      */
     public function loadUserByOAuthUserResponse(UserResponseInterface $response)
     {
+        /* @var $response \HWI\Bundle\OAuthBundle\OAuth\Response\UserResponseInterface */
+        var_dump(
+            $response->getEmail(),
+            $response->getProfilePicture()
+        );
+
         $username = $response->getUsername();
         $user = $this->userManager->findUserBy(array($this->getProperty($response) => $username));
 //when the user is registrating
@@ -56,8 +62,8 @@ class FOSUBUserProvider extends BaseClass
             $user->$setter_token($response->getAccessToken());
 //I have set all requested data with the user's username
 //modify here with relevant data
-            $user->setUsername($username);
-            $user->setEmail($username);
+            $user->setUsername($username = $response->getRealName());
+            $user->setEmail($response->getEmail());
             $user->setPassword($username);
             $user->setEnabled(true);
             $this->userManager->updateUser($user);
