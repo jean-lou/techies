@@ -21,3 +21,5 @@ parameters:
     facebook_app_secret:  f412871008b891e4ab063ed6c0bfd950
     google_app_id:  1028129198528-aga41pg17ro6h0e3asgi4i5a7ao3kd7k.apps.googleusercontent.com
     google_app_secret:  LarMoPQuVyd2-L3n9My2JEAl
+    twitter_app_id: 17uEW8Sj8kpZqAMQmxdwSCCvK
+    twitter_app_secret: hMT3kNDrK8XOuOmgafIjBPpTEpw2U2FA0CjBHNrc6z9wepdOAE
