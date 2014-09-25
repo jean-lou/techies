@@ -2,6 +2,10 @@ techies_user:
     resource: "@TechiesUserBundle/Resources/config/routing.yml"
     prefix:   /
 
+sc_stat_bundle:
+    resource: "@SCStatBundle/Resources/config/routing.yml"
+    prefix:   /
+
 #FosUserBundle Routes
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
@@ -43,5 +47,6 @@ google_login:
 
 twitter_login:
     pattern: /login/check-twitter
+
 
 

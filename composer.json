@@ -19,8 +19,13 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "hwi/oauth-bundle": "0.4.*@dev"
+        "hwi/oauth-bundle": "0.4.*@dev",
+        "smaltcreation/statbundle" : "dev-master"
     },
+    "repositories" : [{
+        "type" : "vcs",
+        "url" : "https://github.com/SmaltCreation/StatBundle"
+    }],
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
     },

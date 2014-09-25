@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5fa4d0b11d05bd968c93b0342f15c823",
+    "hash": "abfa292bd291f216eeeaa0f1e9f8e351",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1252,6 +1252,51 @@
             "time": "2014-09-02 07:11:30"
         },
         {
+            "name": "smaltcreation/statbundle",
+            "version": "dev-master",
+            "target-dir": "SC/StatBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SmaltCreation/StatBundle.git",
+                "reference": "48a284ad3986a2ef985910f82f17565c983db58e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SmaltCreation/StatBundle/zipball/48a284ad3986a2ef985910f82f17565c983db58e",
+                "reference": "48a284ad3986a2ef985910f82f17565c983db58e",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SC\\StatBundle": ""
+                }
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "The Statisticians",
+                    "email": "j.solatges@gmail.com"
+                }
+            ],
+            "description": "A Symfony Bundle managing on-site & offsite statistics for your communautary website",
+            "keywords": [
+                "bundle statistics stats"
+            ],
+            "support": {
+                "source": "https://github.com/SmaltCreation/StatBundle/tree/master",
+                "issues": "https://github.com/SmaltCreation/StatBundle/issues"
+            },
+            "time": "2014-09-25 13:48:06"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.2.1",
             "source": {
@@ -1811,7 +1856,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "friendsofsymfony/user-bundle": 20,
-        "hwi/oauth-bundle": 20
+        "hwi/oauth-bundle": 20,
+        "smaltcreation/statbundle": 20
     },
     "prefer-stable": false,
     "platform": {
